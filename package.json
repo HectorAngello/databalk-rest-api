@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +19,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.3.8",
     "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
   }
 }
